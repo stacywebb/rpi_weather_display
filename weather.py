@@ -65,10 +65,10 @@ red = 'rgb(255,0,0)'
 epd.init()
 epd.Clear()
 
-API_KEY = 'ce2844dab691825661a0f5c80505c97c'
-LOCATION = '24014'
-LATITUDE = '37.231081'
-LONGITUDE = '-79.967977'
+API_KEY = '##################'
+LOCATION = '#########'
+LATITUDE = '#########'
+LONGITUDE = '########'
 UNITS = 'imperial'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/onecall?'
 URL = BASE_URL + 'lat=' + LATITUDE + '&lon=' + LONGITUDE + '&units=' + UNITS +'&appid=' + API_KEY
